@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+        justify-content: center;
+}
+
+.container {
+    display: flex;
+    padding-left:20%;
+    margin: 40px;
+    gap: 30px;
+
+}
+/** left section **/
+.mobileImage {
+    height: 560px;
+}
+
+/** Right-section **/
+
+.instaTextLogo {
+    width: 174px;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    border-radius: #fbfbfb;
+    font-size: 14px;
+}
+
+.login-btn {
+    background-color: #3798f0;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 100;
+    width: 100%;
+    cursor: pointer;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider p {
+    margin: 0px 10px;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.login-with-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+.fb-img {
+    width: 17px;
+    height: 17px;
+}
+
+.facbook-login {
+    color: #385185;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.forgot-password {
+    color: #00378b;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
+.signup-box {
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+
+}
+.signup-box a {
+    color: #00378b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.signup-box p {
+    font-size: 12px;
+}
+
+.download-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.app-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-section p {
+    margin-bottom: 20px;
+}
+
+.app-btn {
+    height: 40px;
+    margin: 0 5px;
+
+}
+
+/** footer line **/
+
+footer .footer-line {
+    height: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+
+
+}
+.last-line {
+    display:flex;
+    justify-content: center;
+    height: 20px;
+    gap: 10px;
+    font-size: 13px; 
+}
+
+.last-line a{
+    color: #737373;
+    text-decoration: none;
+}
+
+.last-line a:hover {
+    border-bottom: 1px solid #8e8e8e;
+}
+
+.lang-change {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+.lang-change p {
+    color: #737373;
+    cursor: pointer;
+    font-size: 13px;
+    
+}
+#langu {
+    height: 15px;
+    width: 20px;
+    border: none;
+    color: #737373;
+    cursor: pointer;
+    margin: 0px 5px 0px 0px;
+
+
+}  
+
+.terms {
+    color: #737373;
+    font-size: 13px;
+}
